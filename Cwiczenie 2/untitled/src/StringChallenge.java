@@ -11,7 +11,7 @@ public class StringChallenge {
         System.out.println("Podaj swoje imie");
         String name = reader.readLine();
 
-        System.out.println("POdaj swoje miasto");
+        System.out.println("Podaj swoje miasto");
         String city = reader.readLine();
 
         System.out.println("Twoje imie to: " + name+". Mieszkasz w "+city);
