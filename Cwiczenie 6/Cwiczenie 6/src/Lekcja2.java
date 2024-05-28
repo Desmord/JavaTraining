@@ -4,6 +4,7 @@ class Employee {
     String surName;
     String jobTitle;
     int earnings;
+    static int id = 1; // współdzielone z innymi obiektami rej klasy
 
     // Można korzystać z dwoch konstruktorów
     public Employee() {
