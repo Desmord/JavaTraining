@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 public class Main {
@@ -31,6 +32,14 @@ public class Main {
         LinkedList linkedList1 = new LinkedList();
         // removeFirstOccurrence();
         // removeLastOccurrence()
+
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+
+        // wartości sa unikalne
+        HashSet hashSet = new HashSet<>();
+        HashSet<String> hashSet2 = new HashSet<>();
 
 
     }
