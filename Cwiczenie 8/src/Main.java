@@ -1,6 +1,9 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.*;
+
+class TestClass{
+    public TestClass() {
+    }
+}
 
 public class Main {
     public static void main(String[] args) {
@@ -40,6 +43,29 @@ public class Main {
         // wartości sa unikalne
         HashSet hashSet = new HashSet<>();
         HashSet<String> hashSet2 = new HashSet<>();
+
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+
+        TreeSet<String> treeSet = new TreeSet<>();
+        // W przypadku obiektow trzeba dodac    implements Comparator zeby treeSet był w stanie porównywac
+        // obiekty poprawnie
+
+
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+
+        // Zbiór ktory mozna pozniej wyszukac po kluczu np tutaj w Stringu
+        HashMap<String,TestClass> map = new HashMap<String, TestClass>();
+
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+//        _________________________________________________________________________________
+        
+        PriorityQueue<String> que = new PriorityQueue<>();
+
 
 
     }
