@@ -60,5 +60,14 @@ public class Main {
         // Klasa powinno implementowac Comparator i pozniej nadpisac metode equals zeby set był z
         // unikalnymi wartosciami a nie domyslny equals
         Set<Car> setCars = cars.stream().collect(Collectors.toSet());
+
+        // summingInt
+        // toMap
+        // min, max
+        // limit  ogranicza liczbe wynikow
+        // count
+        // reduce
+        // iterate
+
     }
 }
